@@ -10,6 +10,9 @@
     
     <title>Frontend Mentor | Huddle landing page with alternating feature blocks</title>
 
+
+    <script src="https://kit.fontawesome.com/a7ad1d586e.js" crossorigin="anonymous"></script>
+
     <link rel="stylesheet" href="./style.css">
 
   </head>
@@ -19,11 +22,11 @@
     <header>
       <div class="container">
 
-        <nav>
+        <nav class="flex">
           
           <img class="logo" src="./images/logo.svg" alt="logo">
 
-          <button class="btn btn-secundary">
+          <button class="btn">
             Try It Free
           </button>
 
@@ -45,8 +48,10 @@
             </button>
 
           </div>
-        
-          <img src="./images/illustration-mockups.svg" alt="mockups">
+
+          <div>
+            <img src="./images/illustration-mockups.svg" alt="mockups">
+          </div>
 
         </div>
         
@@ -69,13 +74,17 @@
 
           </div>
 
-          <img src="./images/illustration-grow-together.svg" alt="grow-together">
+          <div>
+            <img src="./images/illustration-grow-together.svg" alt="grow-together">
+          </div>
 
         </div>
         
         <div class="box flex">
 
-          <img src="./images/illustration-flowing-conversation.svg" alt="flowing-conversation">
+          <div>
+            <img src="./images/illustration-flowing-conversation.svg" alt="flowing-conversation">
+          </div>
 
           <div>
 
@@ -103,30 +112,33 @@
 
           </div>
 
-          <img src="./images/illustration-your-users.svg" alt="your-users">
+          <div>
+            <img src="./images/illustration-your-users.svg" alt="your-users">
+          </div>
 
         </div>
 
       </div>
     </main>
 
-    <div class="box">
+    <div class="container center">
+      <div class="box small-box">
 
-      <h1>Ready To Build Your Community?</h1>
+        <h1>Ready To Build Your Community?</h1>
 
-      <button class="btn btn-primary btn-big">
-        Get Started For Free
-      </button>
+        <button class="btn btn-primary btn-big">
+          Get Started For Free
+        </button>
 
+      </div>
     </div>
-
 
     <footer>
       <div class="container">
 
-        <img src="./images/logo.svg" alt="logo">
+          <img src="./images/logoFooter.svg" alt="logo">
 
-        <div class="flex">
+        <div class="flex align-start">
 
           <div>
             <ul>
@@ -172,20 +184,20 @@
           </div>
 
           <div>
-            <ul>
+            <ul class="flex">
               <li>
-                <a href="#">
+                <a class="circle" href="#">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+              </li>
+              <li>
+                <a class="circle" href="">
                   <i class="fab fa-twitter"></i>
                 </a>
               </li>
               <li>
-                <a href="">
-                  <i class="fab fa-twitter"></i>
-                </a>
-              </li>
-              <li>
-                <a href="">
-                  <i class="fab fa-twitter"></i>
+                <a class="circle" href="">
+                  <i class="fab fa-instagram"></i>
                 </a>
               </li>
             </ul>
